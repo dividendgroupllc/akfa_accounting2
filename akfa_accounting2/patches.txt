@@ -1,0 +1,13 @@
+[pre_model_sync]
+# Patches added in this section will be executed before doctypes are migrated
+# Read docs to understand patches: https://frappeframework.com/docs/v14/user/en/database-migrations
+
+[post_model_sync]
+# Patches added in this section will be executed after doctypes are migrated
+akfa_accounting2.patches.pwa_manifest
+akfa_accounting2.patches.travel_request_permissions
+# akfa_accounting2.patches.create_akfa_hr_workspace  # O'chirildi - kerak emas
+akfa_accounting2.patches.trip_master_permissions
+akfa_accounting2.patches.fix_trip_path_log_coordinates
+akfa_accounting2.patches.backfill_kassa_rasxod_je_link
+akfa_accounting2.patches.add_cash_distribution_calendar_shortcut
