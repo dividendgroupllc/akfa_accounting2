@@ -11,3 +11,4 @@ akfa_accounting2.patches.trip_master_permissions
 akfa_accounting2.patches.fix_trip_path_log_coordinates
 akfa_accounting2.patches.backfill_kassa_rasxod_je_link
 akfa_accounting2.patches.add_cash_distribution_calendar_shortcut
+akfa_accounting2.patches.backfill_currency_code_fields
